@@ -161,7 +161,7 @@
         <!--Navigation Controller-->
         <scene sceneID="4Ha-NL-arg">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1kc-3A-GeN" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedViewController" automaticallyAdjustsScrollViewInsets="NO" id="1kc-3A-GeN" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WT1-cm-PSg">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
