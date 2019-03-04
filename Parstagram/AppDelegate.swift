@@ -25,8 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             })
         )
         
-        if let currentUser = PFUser.current() {
-            print("Welcome back \(currentUser.username!) 😀")
+        if PFUser.current() != nil {
+            print("Welcome back \(PFUser.current()?.username!) 😀")
                 // TODO: Load Chat view controller and set as root view controller
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                 let feedViewController = storyboard.instantiateViewController(withIdentifier: "FeedViewController")
